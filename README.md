@@ -41,5 +41,3 @@ A separate S3 bucket and DynamoDB table are used as the Terraform backend:
 
 6. Terraform – Infrastructure as Code
 Terraform defines and manages all of the infrastructure (S3 bucket, OAI, CloudFront distribution, and remote state backend). It provides version control for the infrastructure, drift detection (plan/apply), and reproducible deployments from code instead of manual console changes.
-
-If you want, next we can do a similar pass on your actual main.tf/variables.tf comments so the code and README “speak the same language.”
